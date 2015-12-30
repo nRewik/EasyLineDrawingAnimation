@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A069EFDE1C340A9500D7A6D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A069EFDD1C340A9500D7A6D0 /* AppDelegate.swift */; };
+		A069EFE01C340A9500D7A6D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A069EFDF1C340A9500D7A6D0 /* ViewController.swift */; };
+		A069EFE31C340A9500D7A6D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A069EFE11C340A9500D7A6D0 /* Main.storyboard */; };
+		A069EFE51C340A9500D7A6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A069EFE41C340A9500D7A6D0 /* Assets.xcassets */; };
+		A069EFE81C340A9500D7A6D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A069EFE61C340A9500D7A6D0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A069EFDA1C340A9500D7A6D0 /* LineDrawingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineDrawingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A069EFDD1C340A9500D7A6D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A069EFDF1C340A9500D7A6D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A069EFE21C340A9500D7A6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A069EFE41C340A9500D7A6D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A069EFE71C340A9500D7A6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A069EFE91C340A9500D7A6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A069EFD71C340A9500D7A6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A069EFD11C340A9500D7A6D0 = {
+			isa = PBXGroup;
+			children = (
+				A069EFDC1C340A9500D7A6D0 /* LineDrawingAnimation */,
+				A069EFDB1C340A9500D7A6D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A069EFDB1C340A9500D7A6D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A069EFDA1C340A9500D7A6D0 /* LineDrawingAnimation.app */,
+			);
+			name = Products;
+			path = BezierPathLineDrawingAnimation;
+			sourceTree = "<group>";
+		};
+		A069EFDC1C340A9500D7A6D0 /* LineDrawingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A069EFDD1C340A9500D7A6D0 /* AppDelegate.swift */,
+				A069EFDF1C340A9500D7A6D0 /* ViewController.swift */,
+				A069EFE11C340A9500D7A6D0 /* Main.storyboard */,
+				A069EFE41C340A9500D7A6D0 /* Assets.xcassets */,
+				A069EFE61C340A9500D7A6D0 /* LaunchScreen.storyboard */,
+				A069EFE91C340A9500D7A6D0 /* Info.plist */,
+			);
+			path = LineDrawingAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A069EFD91C340A9500D7A6D0 /* LineDrawingAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A069EFEC1C340A9500D7A6D0 /* Build configuration list for PBXNativeTarget "LineDrawingAnimation" */;
+			buildPhases = (
+				A069EFD61C340A9500D7A6D0 /* Sources */,
+				A069EFD71C340A9500D7A6D0 /* Frameworks */,
+				A069EFD81C340A9500D7A6D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LineDrawingAnimation;
+			productName = BezierPathLineDrawingAnimation;
+			productReference = A069EFDA1C340A9500D7A6D0 /* LineDrawingAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A069EFD21C340A9500D7A6D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nutchaphon Rewik";
+				TargetAttributes = {
+					A069EFD91C340A9500D7A6D0 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Y3H8T2DZD9;
+					};
+				};
+			};
+			buildConfigurationList = A069EFD51C340A9500D7A6D0 /* Build configuration list for PBXProject "LineDrawingAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A069EFD11C340A9500D7A6D0;
+			productRefGroup = A069EFDB1C340A9500D7A6D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A069EFD91C340A9500D7A6D0 /* LineDrawingAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A069EFD81C340A9500D7A6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A069EFE81C340A9500D7A6D0 /* LaunchScreen.storyboard in Resources */,
+				A069EFE51C340A9500D7A6D0 /* Assets.xcassets in Resources */,
+				A069EFE31C340A9500D7A6D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A069EFD61C340A9500D7A6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A069EFE01C340A9500D7A6D0 /* ViewController.swift in Sources */,
+				A069EFDE1C340A9500D7A6D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A069EFE11C340A9500D7A6D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A069EFE21C340A9500D7A6D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A069EFE61C340A9500D7A6D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A069EFE71C340A9500D7A6D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A069EFEA1C340A9500D7A6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A069EFEB1C340A9500D7A6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A069EFED1C340A9500D7A6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LineDrawingAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nRewik.BezierPathLineDrawingAnimation;
+				PRODUCT_NAME = LineDrawingAnimation;
+			};
+			name = Debug;
+		};
+		A069EFEE1C340A9500D7A6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LineDrawingAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nRewik.BezierPathLineDrawingAnimation;
+				PRODUCT_NAME = LineDrawingAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A069EFD51C340A9500D7A6D0 /* Build configuration list for PBXProject "LineDrawingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A069EFEA1C340A9500D7A6D0 /* Debug */,
+				A069EFEB1C340A9500D7A6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A069EFEC1C340A9500D7A6D0 /* Build configuration list for PBXNativeTarget "LineDrawingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A069EFED1C340A9500D7A6D0 /* Debug */,
+				A069EFEE1C340A9500D7A6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A069EFD21C340A9500D7A6D0 /* Project object */;
+}

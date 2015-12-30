@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LineDrawingAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="sUz-wu-xXb">
+                                <rect key="frame" x="13" y="274" width="574" height="31"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="xFQ-8g-qIh"/>
+                                </connections>
+                            </slider>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W7d-o5-WX2">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="6kY-XI-Wnf"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Line Drawing Animation" id="UKt-ag-x9I">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="ZFm-I6-TVU">
+                                            <connections>
+                                                <action selector="playButtonTapped:" destination="BYZ-38-t0r" id="RVh-Ie-qcx"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7md-qM-EAE" userLabel="pathView">
+                                <rect key="frame" x="0.0" y="64" width="600" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="bwR-Km-bjY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sUz-wu-xXb" secondAttribute="bottom" constant="10" id="288-kO-tqG"/>
+                            <constraint firstItem="W7d-o5-WX2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5Gp-pP-LYW"/>
+                            <constraint firstItem="sUz-wu-xXb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="777-kN-FWV"/>
+                            <constraint firstAttribute="trailing" secondItem="7md-qM-EAE" secondAttribute="trailing" id="DWz-B3-PRF"/>
+                            <constraint firstItem="sUz-wu-xXb" firstAttribute="top" secondItem="7md-qM-EAE" secondAttribute="bottom" constant="10" id="GZU-D3-QZI"/>
+                            <constraint firstItem="7md-qM-EAE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="K2N-pS-PZA"/>
+                            <constraint firstItem="7md-qM-EAE" firstAttribute="top" secondItem="W7d-o5-WX2" secondAttribute="bottom" id="RrO-2k-TEs"/>
+                            <constraint firstAttribute="trailing" secondItem="sUz-wu-xXb" secondAttribute="trailing" constant="15" id="Vgu-lY-uen"/>
+                            <constraint firstItem="7md-qM-EAE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Zoi-Am-8tQ"/>
+                            <constraint firstAttribute="trailing" secondItem="W7d-o5-WX2" secondAttribute="trailing" id="dpy-0b-ikE"/>
+                            <constraint firstItem="W7d-o5-WX2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="via-gR-PzH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="K2N-pS-PZA"/>
+                                <exclude reference="288-kO-tqG"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="pathView" destination="7md-qM-EAE" id="nrA-48-9mQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="285" y="372"/>
+        </scene>
+    </scenes>
+</document>
