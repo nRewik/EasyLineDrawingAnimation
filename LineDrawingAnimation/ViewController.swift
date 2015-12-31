@@ -18,18 +18,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        shapeLayer.path = applePath.CGPath
+        // shapeLayer.path = ringPath.CGPath
+        
         shapeLayer.strokeColor = UIColor.blackColor().CGColor
         shapeLayer.fillColor = UIColor.clearColor().CGColor
         shapeLayer.lineWidth = 2.0
         shapeLayer.lineCap = kCALineCapRound
         
         pathView.layer.addSublayer(shapeLayer)
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        shapeLayer.path = UIBezierPath( /* create some path */ ).CGPath
-        shapeLayer.path = applePath(frame: pathView.bounds)
     }
     
     
@@ -43,8 +40,8 @@ class ViewController: UIViewController {
         let animation = CABasicAnimation(keyPath: "strokeEnd")
         
         animation.fromValue = 0.0
-        animation.toValue = 1.0
-        animation.duration = 2.5
+        animation.byValue = 1.0
+        animation.duration = 1.5
         
         animation.fillMode = kCAFillModeForwards
         animation.removedOnCompletion = false
@@ -53,8 +50,16 @@ class ViewController: UIViewController {
     }
     
     
+    var ringPath: UIBezierPath{
+        let bezierPath = UIBezierPath()
+        let arcCenter = CGPoint(x: 185, y: 110)
+        bezierPath.addArcWithCenter(arcCenter, radius: 50.0, startAngle: 0, endAngle: CGFloat(2*M_PI), clockwise: true)
+        return bezierPath
+
+    }
+    
     /// Apple logo bezier path generated from Paintcode.
-    func applePath(frame frame: CGRect) -> CGPathRef{
+    var applePath: UIBezierPath{
         
         let bezierPath = UIBezierPath()
         bezierPath.moveToPoint(CGPointMake(185.37, 151.25))
@@ -93,7 +98,7 @@ class ViewController: UIViewController {
         bezierPath.closePath()
         bezierPath.miterLimit = 4;
 
-        return bezierPath.CGPath
+        return bezierPath
     }
 
 

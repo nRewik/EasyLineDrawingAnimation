@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="sUz-wu-xXb">
-                                <rect key="frame" x="13" y="274" width="574" height="31"/>
+                                <rect key="frame" x="13" y="284" width="574" height="31"/>
                                 <connections>
                                     <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="xFQ-8g-qIh"/>
                                 </connections>
@@ -39,10 +39,10 @@
                                 </items>
                             </navigationBar>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7md-qM-EAE" userLabel="pathView">
-                                <rect key="frame" x="0.0" y="64" width="600" height="200"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="210"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="bwR-Km-bjY"/>
+                                    <constraint firstAttribute="height" constant="210" id="bwR-Km-bjY"/>
                                 </constraints>
                             </view>
                         </subviews>
